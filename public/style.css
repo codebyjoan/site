@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #1abc9c;
+}
+
+/* Header Section */
+header {
+  background: #34495e;
+  color: white;
+  padding: 4rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+  background: white;
+  margin: 1rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
